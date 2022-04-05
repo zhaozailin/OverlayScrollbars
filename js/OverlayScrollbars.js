@@ -705,7 +705,7 @@
                 else if (_type(child) == TYPES.s)
                     el.insertAdjacentHTML(strategy, child);
                 else
-                    el.insertAdjacentElement(strategy, child.nodeType ? child : child[0]);
+                    el.insertAdjacentElement && el.insertAdjacentElement(strategy, child.nodeType ? child : child[0]);
             }
 
             function setCSSVal(el, prop, val) {
