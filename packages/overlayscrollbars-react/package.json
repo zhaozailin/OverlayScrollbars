@@ -1,6 +1,6 @@
 {
-    "name": "overlayscrollbars-react",
-    "version": "0.2.3",
+    "name": "overlayscrollbars-react-better",
+    "version": "1.0.0",
     "description": "OverlayScrollbars wrapper for React.",
     "keywords": [
         "overlayscrollbars",
@@ -29,7 +29,7 @@
         "chalk": "^2.4.2",
         "gulp": "^4.0.2",
         "gulp-json-editor": "^2.5.4",
-        "overlayscrollbars": "^1.11.0",
+        "overlayscrollbars-better": "^1.0.0",
         "react": "^16.13.1",
         "rollup": "^1.32.1",
         "rollup-plugin-commonjs": "^10.1.0",
