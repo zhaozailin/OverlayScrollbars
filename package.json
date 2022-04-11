@@ -1,6 +1,6 @@
 {
-  "name": "overlayscrollbars",
-  "version": "1.0.0-afe.1",
+  "name": "zzl-overlayscrollbars",
+  "version": "0.0.1-alpha.2",
   "description": "A javascript scrollbar plugin which hides native scrollbars, provides custom styleable overlay scrollbars and keeps the native functionality and feeling.",
   "keywords": [
     "overlayscrollbars",
@@ -17,6 +17,7 @@
     "js/OverlayScrollbars.min.js",
     "css/OverlayScrollbars.css",
     "css/OverlayScrollbars.min.css",
+    "types/index.d.ts",
     "README.md",
     "LICENSE"
   ],
@@ -29,6 +30,7 @@
     "url": "https://github.com/KingSora/OverlayScrollbars/issues"
   },
   "main": "js/OverlayScrollbars.js",
+  "typings": "types/index.d.ts",
   "scripts": {
     "build": "node build.js",
     "test": "echo \"Error: no test specified\" && exit 1"
