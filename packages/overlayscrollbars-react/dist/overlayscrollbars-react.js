@@ -1,6 +1,6 @@
 (function (global, factory) {
-    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react'), require('overlayscrollbars')) :
-    typeof define === 'function' && define.amd ? define(['exports', 'react', 'overlayscrollbars'], factory) :
+    typeof exports === 'object' && typeof module !== 'undefined' ? factory(exports, require('react'), require('zzl-overlayscrollbars')) :
+    typeof define === 'function' && define.amd ? define(['exports', 'react', 'zzl-overlayscrollbars'], factory) :
     (global = global || self, factory(global.OverlayScrollbarsReact = {}, global.React, global.OverlayScrollbars));
 }(this, (function (exports, React, OverlayScrollbars) { 'use strict';
 

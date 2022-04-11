@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import OverlayScrollbars from 'overlayscrollbars';
+import OverlayScrollbars from 'zzl-overlayscrollbars';
 
 /*! *****************************************************************************
 Copyright (c) Microsoft Corporation. All rights reserved.
